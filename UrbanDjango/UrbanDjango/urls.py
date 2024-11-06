@@ -22,6 +22,7 @@ from django.urls import path
 # from task4.views import shop
 # from task4.views import cart
 from task5.views import sign_up_by_html
+from task5.views import sign_up_by_django
 
 
 urlpatterns = [
@@ -32,4 +33,5 @@ urlpatterns = [
     # path('shop/', shop),
     # path('cart/', cart),
     path('', sign_up_by_html),
+    path('django_sign_up/', sign_up_by_django),
 ]
